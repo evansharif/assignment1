@@ -1,0 +1,23 @@
+<!-- How can you use the ternary operator in PHP to shorten this if statement?
+(condition)? (steatment1):(steatment2); -->
+<?php
+$num=0;
+print (($num>0)? "Number is Positive":(($num==0)?"Number is Zero":"Number is Negative"));
+
+echo"<br>";
+?>
+// <!-- How can you use the ternary operator in PHP to shorten this if statement?
+// Same things using if else -->
+
+<?php
+$number=0;
+if($number>0){
+    echo"Number is Possitive ";
+}
+if($number<0){
+    echo"This number is negative Zero";
+}
+else {
+    echo"Number is Zero";
+}
+?>
